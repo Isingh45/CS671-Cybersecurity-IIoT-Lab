@@ -1,7 +1,9 @@
 # CS671 Cybersecurity IIoT Lab
 
 ## Overview
-Built a virtual Industrial IoT cybersecurity environment using Containernet, Docker, Modbus/TCP, and Python.
+This project developed a virtual Industrial Internet of Things (IIoT) cybersecurity laboratory using Containernet, Docker, Modbus/TCP, Python, and Scapy.
+
+The environment simulates industrial network communications, cyberattacks, packet analysis, and intrusion detection techniques commonly used in operational technology (OT) environments.
 
 ## Technologies
 - Python
@@ -13,9 +15,10 @@ Built a virtual Industrial IoT cybersecurity environment using Containernet, Doc
 
 ## Features
 - Automated IIoT network deployment
-- Attack simulation
-- Intrusion detection system (IDS)
-- Traffic capture and analysis
+- Modbus/TCP communication simulation
+- Man-in-the-Middle attack simulation
+- Intrusion Detection System (IDS)
+- Packet capture and traffic analysis
 
 ## Repository Structure
 
@@ -34,3 +37,7 @@ presentation/
 pcaps/
 - attack_big.pcap
 - iiot_baseline.pcapng
+
+## Course
+CS671 – Cybersecurity
+California State University, East Bay
